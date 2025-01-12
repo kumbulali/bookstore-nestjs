@@ -1,0 +1,18 @@
+{
+  "isNotEmpty": "{property} boş olmamalıdır.",
+  "isString": "{property} bir metin olmalıdır.",
+  "isNumber": "{property} bir sayı olmalıdır.",
+  "isBoolean": "{property} bir doğru/yanlış değeri olmalıdır.",
+  "isInt": "{property} bir tam sayı olmalıdır.",
+  "isArray": "{property} bir dizi olmalıdır.",
+  "isDate": "{property} geçerli bir tarih olmalıdır.",
+  "isEmail": "{property} geçerli bir e-posta adresi olmalıdır.",
+  "isUrl": "{property} geçerli bir URL olmalıdır.",
+  "isUuid": "{property} geçerli bir UUID olmalıdır.",
+  "isEnum": "{property} izin verilen değerlerden biri olmalıdır.",
+  "arrayNotEmpty": "{property} boş bir dizi olmamalıdır.",
+  "arrayUnique": "{property} benzersiz değerler içermelidir.",
+  "whitelistValidation": "{property} mevcut olmamalıdır.",
+  "isPositive": "{property} pozitif bir sayı olmalıdır.",
+  "isBefore": "{property} en az 10 sene önce olmalıdır."
+}

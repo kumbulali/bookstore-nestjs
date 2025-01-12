@@ -1,0 +1,23 @@
+{
+  "OPERATION_SUCCESSFUL": "Operation successful.",
+  "INTERNAL_SERVER_ERROR": "Internal server error.",
+  "USER_NOT_FOUND": "User not found.",
+  "CREDENTIALS_NOT_VALID": "Credentials are not valid.",
+  "EMAIL_ALREADY_EXISTS": "Email already exists.",
+  "INVALID_TOKEN": "Invalid token.",
+  "INVALID_AUTHORIZATION_HEADER": "Missing or invalid authorization header.",
+  "USER_ALREADY_EXISTS": "User already exists.",
+  "RECORD_ALREADY_EXISTS": "Record already exists.",
+  "DOCUMENT_NOT_FOUND": "Document not found.",
+  "LOGIN_SUCCEEDED": "Login succeeded.",
+  "UNAUTHORIZED": "Unauthorized.",
+  "PERMISSION_DENIED": "Forbidden: Permission denied.",
+  "USER_DELETED": "User deleted successfuly.",
+  "BOOKS_RETRIEVED": "Books are retrieved successfuly.",
+  "BOOKSTORE_NOT_FOUND": "Bookstore not found.",
+  "BOOKSTORE_CREATED": "Bookstore created successfuly.",
+  "BOOKSTORE_DELETED": "Bookstore deleted successfuly.",
+  "BOOK_ADDED": "Book added successfuly.",
+  "BOOKSTORE_REQUIRED": "Bookstore ID is required.",
+  "USER_ASSIGNED": "User assigned successfuly."
+}

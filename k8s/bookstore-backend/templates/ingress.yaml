@@ -1,0 +1,37 @@
+apiVersion: 'networking.k8s.io/v1'
+kind: 'Ingress'
+metadata:
+  name: 'bookstore-backend'
+  annotations:
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /auth/*
+            pathType: 'ImplementationSpecific'
+            backend:
+              service:
+                name: 'auth'
+                port:
+                  number: 3000
+          - path: /users/*
+            pathType: 'ImplementationSpecific'
+            backend:
+              service:
+                name: 'auth'
+                port:
+                  number: 3000
+          - path: /bookstores/*
+            pathType: 'ImplementationSpecific'
+            backend:
+              service:
+                name: 'bookstores'
+                port:
+                  number: 3001
+          - path: /books/*
+            pathType: 'ImplementationSpecific'
+            backend:
+              service:
+                name: 'books'
+                port:
+                  number: 3001

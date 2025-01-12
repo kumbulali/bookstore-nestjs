@@ -1,0 +1,15 @@
+rabbitmq:
+  auth:
+    username: rabbituser
+    password: rabbitpassword
+  persistence:
+    enabled: false
+  service:
+    type: ClusterIP
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 250m
+    limits:
+      memory: 512Mi
+      cpu: 500m

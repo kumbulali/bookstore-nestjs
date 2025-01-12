@@ -1,0 +1,10 @@
+apiVersion: v2
+name: bookstore-backend
+description: A Helm chart for IyzAds Bookstore Backend
+type: application
+version: 0.1.0
+appVersion: '1.16.0'
+dependencies:
+  - name: rabbitmq
+    version: 15.2.1
+    repository: https://charts.bitnami.com/bitnami

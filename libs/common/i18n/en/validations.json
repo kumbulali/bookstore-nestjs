@@ -1,0 +1,18 @@
+{
+  "isNotEmpty": "{property} should not be empty.",
+  "isString": "{property} must be a string.",
+  "isNumber": "{property} must be a number.",
+  "isBoolean": "{property} must be a boolean.",
+  "isInt": "{property} must be an integer.",
+  "isArray": "{property} must be an array.",
+  "isDate": "{property} must be a valid date.",
+  "isEmail": "{property} must be a valid email address.",
+  "isUrl": "{property} must be a valid URL.",
+  "isUuid": "{property} must be a valid UUID.",
+  "isEnum": "{property} must be one of the allowed values.",
+  "arrayNotEmpty": "{property} must not be an empty array.",
+  "arrayUnique": "{property} must not contain duplicate values.",
+  "whitelistValidation": "{property} should not exist.",
+  "isPositive": "{property} must be positive number.",
+  "isBefore": "{property} must be at least 10 years ago."
+}

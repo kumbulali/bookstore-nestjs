@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: auth
+  name: auth
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+    spec:
+      containers:
+        - image: '<ARTIFACT_REGISTRY_URI>/auth/production:latest'
+          imagePullPolicy: Always
+          name: auth
+          ports:
+            - containerPort: 3000
+          env:
+            - name: PORT
+              value: '3000'

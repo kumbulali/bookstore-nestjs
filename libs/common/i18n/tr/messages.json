@@ -1,0 +1,23 @@
+{
+  "OPERATION_SUCCESSFUL": "İşlem başarılı.",
+  "INTERNAL_SERVER_ERROR": "İç sunucu hatası.",
+  "USER_NOT_FOUND": "Kullanıcı bulunamadı.",
+  "CREDENTIALS_NOT_VALID": "Kimlik bilgileri geçerli değil.",
+  "EMAIL_ALREADY_EXISTS": "E-posta zaten kullanılmakta.",
+  "INVALID_TOKEN": "Geçersiz anahtar.",
+  "INVALID_AUTHORIZATION_HEADER": "Eksik ya da geçersiz yetkilendirme başlığı.",
+  "USER_ALREADY_EXISTS": "Kullanıcı zaten mevcut.",
+  "RECORD_ALREADY_EXISTS": "Kayıt zaten mevcut.",
+  "DOCUMENT_NOT_FOUND": "Kayıt bulunamadı.",
+  "LOGIN_SUCCEEDED": "Giriş başarılı.",
+  "UNAUTHORIZED": "Yetkisiz.",
+  "PERMISSION_DENIED": "Forbidden: Erişim reddedildi.",
+  "USER_DELETED": "Kullanıcı başarıyla silindi.",
+  "BOOKS_RETRIEVED": "Kitaplar başarılı şekilde getirildi.",
+  "BOOKSTORE_NOT_FOUND": "Kitap dükkanı bulunamadı.",
+  "BOOKSTORE_CREATED": "Kitap dükkanı başarıyla oluşturuldu.",
+  "BOOKSTORE_DELETED": "Kitap dükkanı başarıyla silindi.",
+  "BOOK_ADDED": "Kitap başarıyla eklendi.",
+  "BOOKSTORE_REQUIRED": "Kitap dükkanı ID'si gerekli.",
+  "USER_ASSIGNED": "Kullanıcı başarıyla atandı."
+}
