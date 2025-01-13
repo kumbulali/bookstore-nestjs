@@ -60,6 +60,7 @@ You can run the entire project with Docker Compose:
 
 2. Start the project with Docker Compose:
    ```sh
+   pnpm i --recursive
    docker-compose up --build
    ```
    PNPM is required for quicker and recursive install cause each sub apps has its own package.json to decrease app package sizes.
