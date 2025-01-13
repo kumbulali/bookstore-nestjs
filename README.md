@@ -62,6 +62,11 @@ You can run the entire project with Docker Compose:
    ```sh
    docker-compose up --build
    ```
+   PNPM is required for quicker and recursive install cause each sub apps has its own package.json to decrease app package sizes.
+   If you do not have pnpm you can install it via.
+   ```sh
+   npm i -g pnpm
+   ```
 
 This will automatically start all required services, including:
 
